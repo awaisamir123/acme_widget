@@ -1,0 +1,4 @@
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/softwaresbrandin/public_html/auditor
+        - /bin/cp -r * $DEPLOYPATH
